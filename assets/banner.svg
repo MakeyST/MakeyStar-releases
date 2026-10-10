@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="MakeyStar">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0916"/>
+      <stop offset="0.55" stop-color="#140F26"/>
+      <stop offset="1" stop-color="#1B1236"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8B6CFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8B6CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3FD0FF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#3FD0FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="star" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E9DFFF"/>
+      <stop offset="0.5" stop-color="#B49CFF"/>
+      <stop offset="1" stop-color="#7C5CFF"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.6" stop-color="#D9CCFF"/>
+      <stop offset="1" stop-color="#A88BFF"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B6CFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#8B6CFF" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#3FD0FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1280" height="360" rx="22"/></clipPath>
+    <style>
+      .float { animation: float 6s ease-in-out infinite; }
+      .pulse { animation: pulse 3.2s ease-in-out infinite; transform-origin: 250px 180px; }
+      .spin  { animation: spin 22s linear infinite; transform-origin: 250px 180px; }
+      .drift { animation: drift 14s ease-in-out infinite alternate; }
+      .grid  { animation: gridmove 18s linear infinite; }
+      .tw1 { animation: tw 2.6s ease-in-out infinite; }
+      .tw2 { animation: tw 3.4s ease-in-out infinite 0.8s; }
+      .tw3 { animation: tw 4.1s ease-in-out infinite 1.6s; }
+      .fade  { animation: fadein 1.2s ease-out both; }
+      .fade2 { animation: fadein 1.2s ease-out 0.35s both; }
+      .fade3 { animation: fadein 1.2s ease-out 0.7s both; }
+      .packet  { stroke-dasharray: 6 194; animation: dash 3.5s linear infinite; }
+      .packet2 { stroke-dasharray: 4 196; animation: dash 4.6s linear infinite 1.2s; }
+      @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-8px) } }
+      @keyframes pulse { 0%,100% { opacity: .55; transform: scale(1) } 50% { opacity: 1; transform: scale(1.08) } }
+      @keyframes spin { to { transform: rotate(360deg) } }
+      @keyframes drift { from { transform: translateX(-30px) } to { transform: translateX(40px) } }
+      @keyframes gridmove { from { transform: translate(0,0) } to { transform: translate(40px,40px) } }
+      @keyframes tw { 0%,100% { opacity: .15 } 50% { opacity: .9 } }
+      @keyframes fadein { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: translateY(0) } }
+      @keyframes dash { to { stroke-dashoffset: -400 } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1280" height="360" fill="url(#bg)"/>
+    <g class="grid"><rect x="-40" y="-40" width="1360" height="440" fill="url(#grid)"/></g>
+    <g class="drift"><circle cx="1050" cy="70" r="260" fill="url(#glow2)"/></g>
+    <circle cx="250" cy="180" r="230" fill="url(#glow)" class="pulse"/>
+
+    <g class="spin">
+      <circle cx="250" cy="180" r="118" fill="none" stroke="#8B6CFF" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="3 9"/>
+      <circle cx="368" cy="180" r="4" fill="#3FD0FF"/>
+      <circle cx="132" cy="180" r="3" fill="#B49CFF"/>
+    </g>
+    <circle cx="250" cy="180" r="150" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+
+    <g class="float">
+      <path d="M250 92 L276 152 L341 158 L292 201 L307 265 L250 231 L193 265 L208 201 L159 158 L224 152 Z"
+            fill="url(#star)" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M250 112 L268 157 L250 150 Z" fill="#FFFFFF" opacity="0.45"/>
+    </g>
+
+    <circle cx="560" cy="62" r="2" fill="#FFFFFF" class="tw1"/>
+    <circle cx="1180" cy="300" r="2.2" fill="#FFFFFF" class="tw2"/>
+    <circle cx="905" cy="40" r="1.6" fill="#FFFFFF" class="tw3"/>
+    <circle cx="470" cy="325" r="1.8" fill="#FFFFFF" class="tw2"/>
+    <circle cx="1230" cy="120" r="1.5" fill="#FFFFFF" class="tw1"/>
+
+    <g font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif">
+      <text x="450" y="168" font-size="84" font-weight="700" fill="url(#title)" letter-spacing="-1">MakeyStar</text>
+      <text x="454" y="214" font-size="25" fill="#CFC6EA">Discord, YouTube и игры — без замедлений</text>
+      <text x="454" y="250" font-size="18" fill="#8E86AA">Бесплатно · Windows 10/11 · один файл · обновляется сам</text>
+    </g>
+
+    <path d="M454 285 H1180" stroke="url(#line)" stroke-width="1.5"/>
+    <path d="M454 285 H1180" stroke="#3FD0FF" stroke-width="3" stroke-linecap="round" fill="none" class="packet"/>
+    <path d="M454 285 H1180" stroke="#B49CFF" stroke-width="3" stroke-linecap="round" fill="none" class="packet2"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="359" rx="22" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Как работает MakeyStar">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D0A1A"/>
+      <stop offset="1" stop-color="#171030"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#211A3D"/>
+      <stop offset="1" stop-color="#181230"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B49CFF"/>
+      <stop offset="1" stop-color="#7C5CFF"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1280" height="300" rx="22"/></clipPath>
+    <style>
+      .t  { font-family: Segoe UI, Inter, Helvetica, Arial, sans-serif; }
+      .h  { font-size: 21px; font-weight: 600; fill: #F1ECFF; }
+      .s  { font-size: 14.5px; fill: #9B93B8; }
+      .wire { stroke: #3A2F66; stroke-width: 2; }
+      .flow { stroke-width: 4; stroke-linecap: round; fill: none; stroke-dasharray: 10 70; animation: run 1.6s linear infinite; }
+      .f1 { stroke: #3FD0FF; }
+      .f2 { stroke: #B49CFF; animation-delay: .4s; }
+      .f3 { stroke: #5BE39A; animation-delay: .8s; }
+      .scan { animation: scan 2.4s ease-in-out infinite; }
+      .glow { animation: glow 2.4s ease-in-out infinite; }
+      .ok { animation: ok 2.4s ease-in-out infinite; }
+      @keyframes run { to { stroke-dashoffset: -80 } }
+      @keyframes scan { 0%,100% { transform: translateY(0) } 50% { transform: translateY(78px) } }
+      @keyframes glow { 0%,100% { opacity: .35 } 50% { opacity: 1 } }
+      @keyframes ok { 0%,40% { opacity: 0 } 60%,100% { opacity: 1 } }
+    </style>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1280" height="300" fill="url(#bg)"/>
+
+    <path d="M305 135 H355" class="wire"/><path d="M305 135 H355" class="flow f1"/>
+    <path d="M615 135 H665" class="wire"/><path d="M615 135 H665" class="flow f2"/>
+    <path d="M925 135 H975" class="wire"/><path d="M925 135 H975" class="flow f3"/>
+
+    <rect x="45" y="70" width="260" height="130" rx="18" fill="url(#card)" stroke="#2E2552"/>
+    <g class="t">
+      <text x="70" y="112" class="h">Ваш компьютер</text>
+      <text x="70" y="140" class="s">Discord · YouTube · сайты</text>
+      <text x="70" y="162" class="s">онлайн-игры</text>
+    </g>
+
+    <rect x="355" y="70" width="260" height="130" rx="18" fill="url(#card)" stroke="url(#accent)" stroke-width="2"/>
+    <rect x="355" y="70" width="260" height="130" rx="18" fill="#8B6CFF" opacity="0.10" class="glow"/>
+    <g class="t">
+      <text x="380" y="112" class="h">MakeyStar</text>
+      <text x="380" y="140" class="s">движок zapret (bol-van)</text>
+      <text x="380" y="162" class="s">+ стратегии Flowseal</text>
+    </g>
+
+    <rect x="665" y="70" width="260" height="130" rx="18" fill="url(#card)" stroke="#2E2552"/>
+    <g class="scan"><rect x="672" y="78" width="246" height="36" rx="6" fill="#FF6B8B" opacity="0.10"/></g>
+    <g class="t">
+      <text x="690" y="112" class="h">Провайдер (DPI)</text>
+      <text x="690" y="140" class="s">ищет, что замедлить —</text>
+      <text x="690" y="162" class="s">и не узнаёт трафик</text>
+    </g>
+
+    <rect x="975" y="70" width="260" height="130" rx="18" fill="url(#card)" stroke="#2E2552"/>
+    <g class="t">
+      <text x="1000" y="112" class="h">Сервис открыт</text>
+      <text x="1000" y="140" class="s">на вашей скорости,</text>
+      <text x="1000" y="162" class="s">без чужих серверов и VPN</text>
+    </g>
+    <g class="ok">
+      <circle cx="1203" cy="104" r="14" fill="#5BE39A" opacity="0.18"/>
+      <path d="M1196 104 l5 5 l9 -10" stroke="#5BE39A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g class="t">
+      <text x="640" y="258" text-anchor="middle" font-size="15" fill="#7F7799">MakeyStar меняет служебные части пакетов так, чтобы оборудование провайдера не мешало соединению. Трафик идёт напрямую.</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="299" rx="22" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+</svg>
