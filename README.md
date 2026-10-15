@@ -6,7 +6,7 @@
 
 <a href="https://github.com/MakeyST/MakeyStar-releases/releases/latest"><img src="https://img.shields.io/github/v/release/MakeyST/MakeyStar-releases?style=for-the-badge&color=8B6CFF&label=version" alt="Версия"></a>
 <a href="https://github.com/MakeyST/MakeyStar-releases/releases"><img src="https://img.shields.io/github/downloads/MakeyST/MakeyStar-releases/total?style=for-the-badge&color=3FD0FF&label=downloads" alt="Скачивания"></a>
-<a href="https://www.virustotal.com/gui/file/b1f0fee29469e44e7c0e4d2121313fe434e0259ee1b1c6df78ac42657fdcb74d?nocache=1"><img src="https://img.shields.io/badge/VirusTotal-checked-5BE39A?style=for-the-badge&logo=virustotal&logoColor=white" alt="VirusTotal"></a>
+<a href="https://www.virustotal.com/gui/file/67ea21f44c90916f0afc0df37dc5c76b96ef14d9151a0a32395ce4b7d509f04f?nocache=1"><img src="https://img.shields.io/badge/VirusTotal-checked-5BE39A?style=for-the-badge&logo=virustotal&logoColor=white" alt="VirusTotal"></a>
 <a href="https://t.me/+vHof0DrTv8thYTky"><img src="https://img.shields.io/badge/Telegram-канал-2AABEE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram-канал"></a>
 <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=for-the-badge&logo=windows11&logoColor=white" alt="Windows 10 | 11">
 <img src="https://img.shields.io/badge/price-free-5BE39A?style=for-the-badge" alt="Бесплатно">
@@ -249,7 +249,7 @@ MakeyStar бесплатный, потому что стоит на открыт
 
 **VirusTotal**<br>
 Файл проверен десятками антивирусов.<br>
-**[Открыть отчёт VirusTotal](https://www.virustotal.com/gui/file/b1f0fee29469e44e7c0e4d2121313fe434e0259ee1b1c6df78ac42657fdcb74d?nocache=1)**<br>
+**[Открыть отчёт VirusTotal](https://www.virustotal.com/gui/file/67ea21f44c90916f0afc0df37dc5c76b96ef14d9151a0a32395ce4b7d509f04f?nocache=1)**<br>
 <sub>отчёт для версии 2.9.3</sub>
 
 </td>
