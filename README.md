@@ -62,7 +62,7 @@
 
 <img src="assets/steps.svg" width="100%" alt="1. Скачайте MakeyStar.exe · 2. Положите в постоянную папку · 3. Запустите и подтвердите запрос Windows · 4. Готово">
 
-<p align="center"><img src="assets/quickstart.gif" width="90%" alt="Скачайте → запустите → нажмите на круг → YouTube, Discord и Telegram работают"></p>
+<p align="center"><img src="assets/quickstart.gif" width="90%" alt="Скачайте → запустите → нажмите на звезду → YouTube, Discord и Telegram работают"></p>
 
 **Нужно:** Windows 10 или 11 (64-бит), интернет и один раз подтвердить права администратора.
 
