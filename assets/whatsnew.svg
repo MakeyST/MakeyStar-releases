@@ -58,9 +58,9 @@
 <rect class="ring" x="54" y="62" width="72" height="72" rx="20" fill="none" stroke="#F0CF8E" stroke-width="2" style="animation-delay:0.0s"/>
 <rect x="54" y="62" width="72" height="72" rx="20" fill="#1B1F26" stroke="#E8C27A" stroke-opacity=".8" stroke-width="1.5"/>
 <g transform="translate(90 98) scale(1.05)"><circle r="21" fill="none" stroke="#EDEFF3" stroke-width="2.6"/><path d="M0 -14 L4.1 -5.6 L13.3 -4.3 L6.6 2.1 L8.2 11.3 L0 7 L-8.2 11.3 L-6.6 2.1 L-13.3 -4.3 L-4.1 -5.6 Z" fill="url(#ig0)" stroke="#EDEFF3" stroke-width="1.6" stroke-linejoin="round"/></g>
-<text x="54" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Дизайн «Космос»</text>
-<text x="54" y="210" font-size="16" fill="#A3AAB8">графит и тёплое золото,</text>
-<text x="54" y="232" font-size="16" fill="#A3AAB8">знак-звезда вместо кнопки</text>
+<text x="54" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Подсказки не мешают</text>
+<text x="54" y="210" font-size="16" fill="#A3AAB8">пока идёт путеводитель —</text>
+<text x="54" y="232" font-size="16" fill="#A3AAB8">видно только то, о чём речь</text>
 <path class="pk" d="M54 250 H296" stroke="#F0CF8E" stroke-width="3" stroke-linecap="round" style="animation-delay:0.0s"/>
 </g><g class="tile" style="animation-delay:0.18s">
 <rect x="340" y="34" width="290" height="232" rx="20" fill="url(#card)" stroke="#D9A85A" stroke-opacity=".45" stroke-width="1.5"/>
@@ -68,9 +68,9 @@
 <rect class="ring" x="364" y="62" width="72" height="72" rx="20" fill="none" stroke="#F5DDA8" stroke-width="2" style="animation-delay:0.18s"/>
 <rect x="364" y="62" width="72" height="72" rx="20" fill="#1B1F26" stroke="#D9A85A" stroke-opacity=".8" stroke-width="1.5"/>
 <g transform="translate(400 98) scale(1.05)"><path d="M-20 -12 H20" stroke="#EDEFF3" stroke-opacity="0.55" stroke-width="3" stroke-linecap="round"/><circle class="ib-k1" cx="0" cy="-12" r="5" fill="url(#ig1)" stroke="#EDEFF3" stroke-width="2"/><path d="M-20 0 H20" stroke="#EDEFF3" stroke-opacity="0.55" stroke-width="3" stroke-linecap="round"/><circle class="ib-k2" cx="0" cy="0" r="5" fill="url(#ig1)" stroke="#EDEFF3" stroke-width="2"/><path d="M-20 12 H20" stroke="#EDEFF3" stroke-opacity="0.55" stroke-width="3" stroke-linecap="round"/><circle class="ib-k3" cx="0" cy="12" r="5" fill="url(#ig1)" stroke="#EDEFF3" stroke-width="2"/></g>
-<text x="364" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Раздел «Игры» проще</text>
-<text x="364" y="210" font-size="16" fill="#A3AAB8">всё само, без настроек;</text>
-<text x="364" y="232" font-size="16" fill="#A3AAB8">сложное — «Для опытных»</text>
+<text x="364" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Разделы — всегда сверху</text>
+<text x="364" y="210" font-size="16" fill="#A3AAB8">вернулись в раздел — видите</text>
+<text x="364" y="232" font-size="16" fill="#A3AAB8">его начало, а не середину</text>
 <path class="pk" d="M364 250 H606" stroke="#F5DDA8" stroke-width="3" stroke-linecap="round" style="animation-delay:0.18s"/>
 </g><g class="tile" style="animation-delay:0.36s">
 <rect x="650" y="34" width="290" height="232" rx="20" fill="url(#card)" stroke="#2FC27A" stroke-opacity=".45" stroke-width="1.5"/>
@@ -79,9 +79,9 @@
 <rect x="674" y="62" width="72" height="72" rx="20" fill="#1B1F26" stroke="#2FC27A" stroke-opacity=".8" stroke-width="1.5"/>
 <g transform="translate(710 98) scale(1.05)"><circle r="21" fill="none" stroke="#EDEFF3" stroke-width="3"/><path d="M-21 0 H21" stroke="#EDEFF3" stroke-opacity="0.6" stroke-width="2.4"/>
 <g class="ib-globe"><ellipse rx="9" ry="21" fill="none" stroke="url(#ig2)" stroke-width="3"/></g><path d="M-18 -10 Q0 -4 18 -10 M-18 10 Q0 4 18 10" fill="none" stroke="#EDEFF3" stroke-opacity="0.5" stroke-width="2"/></g>
-<text x="674" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Call of Duty заходит</text>
-<text x="674" y="210" font-size="16" fill="#A3AAB8">вход Activision — напрямую,</text>
-<text x="674" y="232" font-size="16" fill="#A3AAB8">без «Подключение к службам»</text>
+<text x="674" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Telegram не краснеет зря</text>
+<text x="674" y="210" font-size="16" fill="#A3AAB8">проверяем серверы Telegram,</text>
+<text x="674" y="232" font-size="16" fill="#A3AAB8">а не сайт web.telegram.org</text>
 <path class="pk" d="M674 250 H916" stroke="#5BE39A" stroke-width="3" stroke-linecap="round" style="animation-delay:0.36s"/>
 </g><g class="tile" style="animation-delay:0.54s">
 <rect x="960" y="34" width="290" height="232" rx="20" fill="url(#card)" stroke="#E8A33D" stroke-opacity=".45" stroke-width="1.5"/>
@@ -90,9 +90,9 @@
 <rect x="984" y="62" width="72" height="72" rx="20" fill="#1B1F26" stroke="#E8A33D" stroke-opacity=".8" stroke-width="1.5"/>
 <g transform="translate(1020 98) scale(1.05)"><path d="M0 -22 L18 -15 L18 0 C18 12 9 19 0 23 C-9 19 -18 12 -18 0 L-18 -15 Z" fill="url(#ig3)" fill-opacity="0.35" stroke="#EDEFF3" stroke-width="3" stroke-linejoin="round"/>
 <path class="ib-draw" d="M-8 0 L-2 6 L9 -6" fill="none" stroke="#EDEFF3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
-<text x="984" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Настройки целы</text>
-<text x="984" y="210" font-size="16" fill="#A3AAB8">профили, стратегии и игры</text>
-<text x="984" y="232" font-size="16" fill="#A3AAB8">остаются как были</text>
+<text x="984" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Теперь и для Mac</text>
+<text x="984" y="210" font-size="16" fill="#A3AAB8">Discord и YouTube на macOS,</text>
+<text x="984" y="232" font-size="16" fill="#A3AAB8">значок в строке меню</text>
 <path class="pk" d="M984 250 H1226" stroke="#FFD27A" stroke-width="3" stroke-linecap="round" style="animation-delay:0.54s"/>
 </g></g></g>
 <rect x=".5" y=".5" width="1279" height="299" rx="22" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
