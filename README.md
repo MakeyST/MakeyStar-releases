@@ -9,13 +9,15 @@
 <a href="https://www.virustotal.com/gui/file/8a0d44769caf40129405be1c02d09b96c8796c00c3f3c81c03b94a59ba91ea00?nocache=1"><img src="https://img.shields.io/badge/VirusTotal-checked-5BE39A?style=for-the-badge&logo=virustotal&logoColor=white" alt="VirusTotal"></a>
 <a href="https://t.me/+vHof0DrTv8thYTky"><img src="https://img.shields.io/badge/Telegram-канал-2AABEE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram-канал"></a>
 <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=for-the-badge&logo=windows11&logoColor=white" alt="Windows 10 | 11">
+<img src="https://img.shields.io/badge/macOS-13%2B-A3AAB8?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 13+">
 <img src="https://img.shields.io/badge/price-free-5BE39A?style=for-the-badge" alt="Бесплатно">
 
 <br><br>
 
-<a href="https://github.com/MakeyST/MakeyStar-releases/releases/latest/download/MakeyStar.exe"><img src="https://img.shields.io/badge/DOWNLOAD-MakeyStar.exe-8B6CFF?style=for-the-badge&logo=windows&logoColor=white" height="44" alt="Скачать MakeyStar.exe"></a>
+<a href="https://github.com/MakeyST/MakeyStar-releases/releases/latest/download/MakeyStar.exe"><img src="https://img.shields.io/badge/DOWNLOAD-MakeyStar.exe-8B6CFF?style=for-the-badge&logo=windows&logoColor=white" height="44" alt="Скачать MakeyStar.exe для Windows"></a>
+<a href="#mac"><img src="https://img.shields.io/badge/DOWNLOAD-MakeyStar.dmg-3A3F4A?style=for-the-badge&logo=apple&logoColor=white" height="44" alt="Скачать MakeyStar.dmg для macOS"></a>
 
-**[Скачать последнюю версию](https://github.com/MakeyST/MakeyStar-releases/releases/latest/download/MakeyStar.exe)** · [Все выпуски](https://github.com/MakeyST/MakeyStar-releases/releases) · [Что нового](https://github.com/MakeyST/MakeyStar-releases/releases/latest) · [Telegram-канал](https://t.me/+vHof0DrTv8thYTky)
+**[Скачать для Windows](https://github.com/MakeyST/MakeyStar-releases/releases/latest/download/MakeyStar.exe)** · **[Для Mac](#mac)** · [Все выпуски](https://github.com/MakeyST/MakeyStar-releases/releases) · [Что нового](https://github.com/MakeyST/MakeyStar-releases/releases/latest) · [Telegram-канал](https://t.me/+vHof0DrTv8thYTky)
 
 Бесплатная программа для Windows, которая возвращает нормальную работу **Discord, YouTube, сайтов и онлайн-игр**,
 когда провайдер замедляет или режет соединение. Один файл — всё скачивает, настраивает и обновляет сам.
@@ -32,14 +34,14 @@
 <a id="new"></a>
 <img src="assets/h-new.svg" width="100%" alt="Что нового в 4.0">
 
-<img src="assets/whatsnew.svg" width="100%" alt="Дизайн «Космос» · раздел «Игры» проще · Call of Duty заходит · настройки целы">
+<img src="assets/whatsnew.svg" width="100%" alt="Подсказки не мешают · разделы всегда сверху · Telegram не краснеет зря · теперь и для Mac">
 
-- **Новый дизайн «Космос».** Графит и тёплое золото, фирменный знак — звезда в круге. На главной вместо большой кнопки — сам знак: нажали, и обход включился. Заставка при запуске, новый первый запуск, мини-окно и меню трея в том же стиле.
-- **Call of Duty заходит в игру.** Раньше при игровом фильтре «TCP+UDP» игра бесконечно висела на «Подключение к сетевым службам». Причина: обход трогал серверы входа Activision, которые и так не заблокированы. Теперь они идут напрямую.
-- **Обход не перезапускается посреди игры.** Ни после скана, ни при поиске серверов, ни при проверке на старте: перезапуск обрывал вход игры в сеть. Найденная замена стратегии включится, когда игра закроется. Call of Duty и Apex MakeyStar узнаёт даже без скана.
-- **Раздел «Игры» проще.** Сверху живой статус: запустите игру, MakeyStar всё сделает сам. Выбор ближнего сервера объяснён по-человечески и меряет только серверы матчей. Фильтр, сканер и профили спрятаны в «Для опытных».
-- **Легче и плавнее.** В трее анимации на паузе, и память возвращается системе: 54 МБ вместо 282. Переходы и прокрутка без подвисаний.
-- **Путеводитель.** При первом заходе в раздел — короткая подсказка, что здесь и зачем.
+- **Теперь и для Mac.** В этом же выпуске лежит `MakeyStar.dmg` — обход **Discord и YouTube** на macOS значком в строке меню. Как поставить — в разделе [MakeyStar для Mac](#mac).
+- **Подсказки больше не мешают.** Пока идёт путеводитель, остальное окно затемнено и не нажимается — видно только то, о чём речь. Закрыли подсказку — приложение работает как обычно. Рамка теперь едет вместе с прокруткой и не висит поверх шапки.
+- **Кнопка «? Путеводитель» работает в любом разделе.** Раньше повторно подсказки нормально открывались только на главной.
+- **Разделы открываются сверху.** Возвращаетесь в раздел — видите его начало, а не то место, где закончили в прошлый раз.
+- **Telegram больше не краснеет зря.** Telegram работает через свои серверы, а не через сайт `web.telegram.org`, который у многих провайдеров не открывается. Теперь MakeyStar проверяет сами серверы Telegram — и показывает зелёную точку, когда мессенджер действительно работает.
+- **Call of Duty проверен вживую:** игра заходит, обход в играх работает.
 - Ваши настройки, профили, стратегии и игры после обновления остаются как были. Полный список — в [описании выпуска](https://github.com/MakeyST/MakeyStar-releases/releases/latest).
 
 <a href="https://t.me/+vHof0DrTv8thYTky"><img src="assets/telegram.svg" width="100%" alt="Наш Telegram-канал: обновления, советы и полезная информация о MakeyStar — подписаться"></a>
@@ -54,6 +56,7 @@
 | **04** · [Как пользоваться](#usage) | **05** · [Обновления](#updates) | **06** · [Безопасность и проверка](#security) |
 | **07** · [Что меняется в системе](#system) | **08** · [Вернуть всё как было](#revert) | **09** · [Конфиденциальность](#privacy) |
 | **10** · [Сторонние компоненты](#components) | **11** · [Права автора](#rights) | **12** · [Частые вопросы](#faq) |
+| **13** · [MakeyStar для Mac](#mac) | | |
 
 </div>
 
@@ -76,6 +79,53 @@
 > [!TIP]
 > Не работает какой-то сервис (крестик ✗ у значка)? Нажмите **«Автоподбор»** прямо на главной —
 > MakeyStar сам переберёт стратегии и оставит ту, что работает у вашего провайдера.
+
+<a id="mac"></a>
+<img src="assets/divider.svg" width="100%" alt="">
+
+## MakeyStar для Mac
+
+Версия для macOS: обход **Discord и YouTube** на компьютерах Apple. Живёт звездой в строке меню —
+как значок у часов в Windows-версии. Отдельного окна в Dock нет.
+
+**Нужно:** macOS 13 (Ventura) или новее, Mac на Apple Silicon (M1–M4) или Intel, пароль администратора один раз.
+
+> [!NOTE]
+> Сборка для Mac собирается на самом Mac и появляется в выпуске следом за версией для Windows.
+> Если в выпуске `MakeyStar.dmg` ещё нет — значит, он вот-вот будет: загляните чуть позже или в [Telegram-канал](https://t.me/+vHof0DrTv8thYTky).
+
+| Шаг | Что сделать |
+|:---:|---|
+| **1** | Скачайте `MakeyStar.dmg` из [последнего выпуска](https://github.com/MakeyST/MakeyStar-releases/releases/latest) (файл в списке «Assets») |
+| **2** | Откройте файл двойным щелчком и перетащите **MakeyStar** в папку «Программы» |
+| **3** | **Первый запуск — правой кнопкой по MakeyStar → «Открыть» → ещё раз «Открыть»** (обычный двойной щелчок macOS не пустит, см. ниже) |
+| **4** | Введите пароль Mac, когда попросят: он нужен один раз, чтобы поставить движок обхода |
+| **5** | Нажмите большую кнопку **«Включить обход»** — дальше MakeyStar всё проверит и подберёт сам |
+
+> [!IMPORTANT]
+> **«MakeyStar повреждён и не может быть открыт» — это не вирус и не поломка.**
+> Приложение бесплатное и не подписано платным сертификатом Apple ($99 в год), поэтому macOS помечает
+> скачанный файл карантином. Лечится одним из двух способов:
+> - правый клик по приложению → **«Открыть»**, затем в окне ещё раз **«Открыть»** (достаточно одного раза);
+> - или в Терминале: `xattr -dr com.apple.quarantine /Applications/MakeyStar.app`
+
+**Что умеет версия для Mac**
+
+- Одна кнопка «Включить обход» / «Проверить и починить»: сама ставит движок, чинит его и подбирает стратегию,
+  проверяя 17 адресов YouTube и Discord — тщательнее, чем встроенный автоподбор движка.
+- Меню в строке состояния: включить и выключить обход, выбрать стратегию, списки сайтов, закрепить голос Discord,
+  запуск при входе в систему, журнал.
+- Створка «Для профи»: своя стратегия, разбор, диагностика, замер скорости, проверка конкретного сайта.
+- **Работает вместе с VPN** и никогда его не выключает: пока VPN держит весь трафик, обход ждёт и не мешает.
+
+**Чего в версии для Mac нет**
+
+Игр и ускорения игр, рентгена сети, скорости по программам, раздачи обхода на приставку, ускорения Telegram
+и безопасного DNS. Всё это держится на внутренних механизмах Windows (WinDivert, ETW, WMI, брандмауэр Windows),
+которых в macOS нет. Для Discord и YouTube версия для Mac самодостаточна.
+
+**Обновление.** Скачайте новый `MakeyStar.dmg` из свежего выпуска и замените приложение в «Программах» —
+настройки и стратегии останутся на месте.
 
 <a id="how"></a>
 <img src="assets/h-how.svg" width="100%" alt="02 · Как это работает">
@@ -417,6 +467,16 @@ MakeyStar предоставляется «как есть», бесплатно
 
 <a id="faq"></a>
 <img src="assets/h-faq.svg" width="100%" alt="12 · Частые вопросы">
+
+<details>
+<summary><b>А на Mac работает?</b></summary>
+<br>
+
+Да, с версии 4.1.0 в выпуске есть `MakeyStar.dmg` — обход **Discord и YouTube** для macOS 13 и новее.
+Установка и важное про первый запуск — в разделе <a href="#mac">MakeyStar для Mac</a>. Игры, рентген сети
+и раздача на приставку есть только в версии для Windows: в macOS нет механизмов, на которых они работают.
+
+</details>
 
 <details>
 <summary><b>Это VPN?</b></summary>
