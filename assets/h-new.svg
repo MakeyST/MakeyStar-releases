@@ -69,8 +69,8 @@
 <rect x="34" y="24" width="84" height="84" rx="24" fill="url(#tile)" stroke="#E8C27A" stroke-opacity=".7" stroke-width="1.5"/>
 <g transform="translate(76 66) scale(1.25)"><g class="ib-spin-slow"><path d="M0 -14 V-22" transform="rotate(0)" stroke="#F0CF8E" stroke-width="3" stroke-linecap="round"/><path d="M0 -14 V-22" transform="rotate(45)" stroke="#EDEFF3" stroke-width="3" stroke-linecap="round"/><path d="M0 -14 V-22" transform="rotate(90)" stroke="#F0CF8E" stroke-width="3" stroke-linecap="round"/><path d="M0 -14 V-22" transform="rotate(135)" stroke="#EDEFF3" stroke-width="3" stroke-linecap="round"/><path d="M0 -14 V-22" transform="rotate(180)" stroke="#F0CF8E" stroke-width="3" stroke-linecap="round"/><path d="M0 -14 V-22" transform="rotate(225)" stroke="#EDEFF3" stroke-width="3" stroke-linecap="round"/><path d="M0 -14 V-22" transform="rotate(270)" stroke="#F0CF8E" stroke-width="3" stroke-linecap="round"/><path d="M0 -14 V-22" transform="rotate(315)" stroke="#EDEFF3" stroke-width="3" stroke-linecap="round"/></g><g class="ib-pulse"><path d="M0 -11 L3.3 -3.5 L11 -3.5 L5 1.6 L7 9.5 L0 5 L-7 9.5 L-5 1.6 L-11 -3.5 L-3.3 -3.5 Z" fill="url(#ig)" stroke="#EDEFF3" stroke-width="1.8" stroke-linejoin="round"/></g></g>
 <g font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif">
-<text class="in" x="150" y="48" font-size="15" font-weight="700" letter-spacing="3" fill="#F0CF8E">НОВОЕ · 4.0.0</text>
-<text class="in2" x="148" y="86" font-size="36" font-weight="700" fill="url(#tt)" letter-spacing="-.5">Что нового в 4.0</text>
+<text class="in" x="150" y="48" font-size="15" font-weight="700" letter-spacing="3" fill="#F0CF8E">НОВОЕ · 4.1.0</text>
+<text class="in2" x="148" y="86" font-size="36" font-weight="700" fill="url(#tt)" letter-spacing="-.5">Что нового в 4.1</text>
 <text class="in3" x="150" y="114" font-size="17" fill="#A3AAB8">Дизайн «Космос», Call of Duty без зависания на входе, простой раздел «Игры»</text>
 </g>
 <path d="M150 126 H1250" stroke="url(#ln)" stroke-width="1.5"/>
