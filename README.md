@@ -15,9 +15,9 @@
 <br><br>
 
 <a href="https://github.com/MakeyST/MakeyStar-releases/releases/latest/download/MakeyStar.exe"><img src="https://img.shields.io/badge/DOWNLOAD-MakeyStar.exe-8B6CFF?style=for-the-badge&logo=windows&logoColor=white" height="44" alt="Скачать MakeyStar.exe для Windows"></a>
-<a href="#mac"><img src="https://img.shields.io/badge/DOWNLOAD-MakeyStar.dmg-3A3F4A?style=for-the-badge&logo=apple&logoColor=white" height="44" alt="Скачать MakeyStar.dmg для macOS"></a>
+<a href="https://github.com/MakeyST/MakeyStar-releases/releases/latest/download/MakeyStar.dmg"><img src="https://img.shields.io/badge/DOWNLOAD-MakeyStar.dmg-3A3F4A?style=for-the-badge&logo=apple&logoColor=white" height="44" alt="Скачать MakeyStar.dmg для macOS"></a>
 
-**[Скачать для Windows](https://github.com/MakeyST/MakeyStar-releases/releases/latest/download/MakeyStar.exe)** · **[Для Mac](#mac)** · [Все выпуски](https://github.com/MakeyST/MakeyStar-releases/releases) · [Что нового](https://github.com/MakeyST/MakeyStar-releases/releases/latest) · [Telegram-канал](https://t.me/+vHof0DrTv8thYTky)
+**[Скачать для Windows](https://github.com/MakeyST/MakeyStar-releases/releases/latest/download/MakeyStar.exe)** · **[Скачать для Mac](https://github.com/MakeyST/MakeyStar-releases/releases/latest/download/MakeyStar.dmg)** ([как ставить](#mac)) · [Все выпуски](https://github.com/MakeyST/MakeyStar-releases/releases) · [Что нового](https://github.com/MakeyST/MakeyStar-releases/releases/latest) · [Telegram-канал](https://t.me/+vHof0DrTv8thYTky)
 
 Бесплатная программа для Windows, которая возвращает нормальную работу **Discord, YouTube, сайтов и онлайн-игр**,
 когда провайдер замедляет или режет соединение. Один файл — всё скачивает, настраивает и обновляет сам.
@@ -90,13 +90,9 @@
 
 **Нужно:** macOS 13 (Ventura) или новее, Mac на Apple Silicon (M1–M4) или Intel, пароль администратора один раз.
 
-> [!NOTE]
-> Сборка для Mac собирается на самом Mac и появляется в выпуске следом за версией для Windows.
-> Если в выпуске `MakeyStar.dmg` ещё нет — значит, он вот-вот будет: загляните чуть позже или в [Telegram-канал](https://t.me/+vHof0DrTv8thYTky).
-
 | Шаг | Что сделать |
 |:---:|---|
-| **1** | Скачайте `MakeyStar.dmg` из [последнего выпуска](https://github.com/MakeyST/MakeyStar-releases/releases/latest) (файл в списке «Assets») |
+| **1** | [Скачайте `MakeyStar.dmg`](https://github.com/MakeyST/MakeyStar-releases/releases/latest/download/MakeyStar.dmg) |
 | **2** | Откройте файл двойным щелчком и перетащите **MakeyStar** в папку «Программы» |
 | **3** | **Первый запуск — правой кнопкой по MakeyStar → «Открыть» → ещё раз «Открыть»** (обычный двойной щелчок macOS не пустит, см. ниже) |
 | **4** | Введите пароль Mac, когда попросят: он нужен один раз, чтобы поставить движок обхода |
