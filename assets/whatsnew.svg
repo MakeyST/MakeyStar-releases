@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Что нового в MakeyStar 4.2">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Что нового в MakeyStar 4.3">
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090A0D"/><stop offset="1" stop-color="#17191F"/></linearGradient>
 <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1E2229"/><stop offset="1" stop-color="#15181D"/></linearGradient>
@@ -31,9 +31,9 @@
 <rect class="ring" x="54" y="62" width="72" height="72" rx="20" fill="none" stroke="#F0CF8E" stroke-width="2" style="animation-delay:0.0s"/>
 <rect x="54" y="62" width="72" height="72" rx="20" fill="#1B1F26" stroke="#E8C27A" stroke-opacity=".8" stroke-width="1.5"/>
 <g transform="translate(90 98) scale(1.05)"><path d="M-20 -12 H20" stroke="#EDEFF3" stroke-opacity="0.55" stroke-width="3" stroke-linecap="round"/><circle class="ib-k1" cx="0" cy="-12" r="5" fill="url(#ig0)" stroke="#EDEFF3" stroke-width="2"/><path d="M-20 0 H20" stroke="#EDEFF3" stroke-opacity="0.55" stroke-width="3" stroke-linecap="round"/><circle class="ib-k2" cx="0" cy="0" r="5" fill="url(#ig0)" stroke="#EDEFF3" stroke-width="2"/><path d="M-20 12 H20" stroke="#EDEFF3" stroke-opacity="0.55" stroke-width="3" stroke-linecap="round"/><circle class="ib-k3" cx="0" cy="12" r="5" fill="url(#ig0)" stroke="#EDEFF3" stroke-width="2"/></g>
-<text x="54" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Пульт в браузере</text>
-<text x="54" y="210" font-size="16" fill="#A3AAB8">обход, блокировщики и этот</text>
-<text x="54" y="232" font-size="16" fill="#A3AAB8">сайт — в окошке у значка</text>
+<text x="54" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Поиск Ctrl+K</text>
+<text x="54" y="210" font-size="16" fill="#A3AAB8">набрали «рент» — и вы уже</text>
+<text x="54" y="232" font-size="16" fill="#A3AAB8">в «Рентгене сети»</text>
 <path class="pk" d="M54 250 H296" stroke="#F0CF8E" stroke-width="3" stroke-linecap="round" style="animation-delay:0.0s"/>
 </g><g class="tile" style="animation-delay:0.18s">
 <rect x="340" y="34" width="290" height="232" rx="20" fill="url(#card)" stroke="#D9A85A" stroke-opacity=".45" stroke-width="1.5"/>
@@ -41,9 +41,9 @@
 <rect class="ring" x="364" y="62" width="72" height="72" rx="20" fill="none" stroke="#F5DDA8" stroke-width="2" style="animation-delay:0.18s"/>
 <rect x="364" y="62" width="72" height="72" rx="20" fill="#1B1F26" stroke="#D9A85A" stroke-opacity=".8" stroke-width="1.5"/>
 <g transform="translate(400 98) scale(1.05)"><g class="ib-fall"><path d="M0 -20 V4" stroke="#EDEFF3" stroke-width="3.4" stroke-linecap="round"/><path d="M-9 -4 L0 6 L9 -4" fill="none" stroke="url(#ig1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M-18 13 V18 H18 V13" fill="none" stroke="#EDEFF3" stroke-opacity="0.75" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
-<text x="364" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Видео со страницы</text>
-<text x="364" y="210" font-size="16" fill="#A3AAB8">кнопка «Скачать» в браузере,</text>
-<text x="364" y="232" font-size="16" fill="#A3AAB8">файл — в папке «Видео»</text>
+<text x="364" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Отчёт в PDF</text>
+<text x="364" y="210" font-size="16" fill="#A3AAB8">красивый файл в стиле</text>
+<text x="364" y="232" font-size="16" fill="#A3AAB8">MakeyStar — для мастера</text>
 <path class="pk" d="M364 250 H606" stroke="#F5DDA8" stroke-width="3" stroke-linecap="round" style="animation-delay:0.18s"/>
 </g><g class="tile" style="animation-delay:0.36s">
 <rect x="650" y="34" width="290" height="232" rx="20" fill="url(#card)" stroke="#2FC27A" stroke-opacity=".45" stroke-width="1.5"/>
@@ -52,9 +52,9 @@
 <rect x="674" y="62" width="72" height="72" rx="20" fill="#1B1F26" stroke="#2FC27A" stroke-opacity=".8" stroke-width="1.5"/>
 <g transform="translate(710 98) scale(1.05)"><path d="M0 -22 L18 -15 L18 0 C18 12 9 19 0 23 C-9 19 -18 12 -18 0 L-18 -15 Z" fill="url(#ig2)" fill-opacity="0.35" stroke="#EDEFF3" stroke-width="3" stroke-linejoin="round"/>
 <path class="ib-draw" d="M-8 0 L-2 6 L9 -6" fill="none" stroke="#EDEFF3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
-<text x="674" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Обход встаёт сам</text>
-<text x="674" y="210" font-size="16" fill="#A3AAB8">упал движок — MakeyStar</text>
-<text x="674" y="232" font-size="16" fill="#A3AAB8">поднимает обход без вас</text>
+<text x="674" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Врач сайта</text>
+<text x="674" y="210" font-size="16" fill="#A3AAB8">находит, где рвётся,</text>
+<text x="674" y="232" font-size="16" fill="#A3AAB8">и чинит одним нажатием</text>
 <path class="pk" d="M674 250 H916" stroke="#5BE39A" stroke-width="3" stroke-linecap="round" style="animation-delay:0.36s"/>
 </g><g class="tile" style="animation-delay:0.54s">
 <rect x="960" y="34" width="290" height="232" rx="20" fill="url(#card)" stroke="#E8A33D" stroke-opacity=".45" stroke-width="1.5"/>
@@ -62,9 +62,9 @@
 <rect class="ring" x="984" y="62" width="72" height="72" rx="20" fill="none" stroke="#FFD27A" stroke-width="2" style="animation-delay:0.54s"/>
 <rect x="984" y="62" width="72" height="72" rx="20" fill="#1B1F26" stroke="#E8A33D" stroke-opacity=".8" stroke-width="1.5"/>
 <g transform="translate(1020 98) scale(1.05)"><circle r="21" fill="url(#ig3)" fill-opacity="0.14" stroke="#EDEFF3" stroke-width="3"/><path d="M0 -13 V0 H9" fill="none" stroke="#EDEFF3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g class="ib-hand"><path d="M0 0 V-16" stroke="url(#ig3)" stroke-width="3.4" stroke-linecap="round"/></g><circle r="2.6" fill="#EDEFF3"/></g>
-<text x="984" y="180" font-size="22" font-weight="700" fill="#EDEFF3">После сна — сразу</text>
-<text x="984" y="210" font-size="16" fill="#A3AAB8">проверяет обход, когда ПК</text>
-<text x="984" y="232" font-size="16" fill="#A3AAB8">проснулся или сменил сеть</text>
+<text x="984" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Мини-окно</text>
+<text x="984" y="210" font-size="16" fill="#A3AAB8">круг поверх игры: статус,</text>
+<text x="984" y="232" font-size="16" fill="#A3AAB8">пинг, размер и яркость</text>
 <path class="pk" d="M984 250 H1226" stroke="#FFD27A" stroke-width="3" stroke-linecap="round" style="animation-delay:0.54s"/>
 </g></g></g>
 <rect x=".5" y=".5" width="1279" height="299" rx="22" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>

@@ -85,7 +85,7 @@
     <g font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif">
       <text x="450" y="168" font-size="84" font-weight="700" fill="url(#title)" letter-spacing="-1">MakeyStar</text>
       <text x="454" y="214" font-size="25" fill="#C9CED8">Discord, YouTube и игры — без замедлений</text>
-      <text x="454" y="250" font-size="18" fill="#8F96A4">Бесплатно · Windows 10/11 · один файл · обновляется сам</text>
+      <text x="454" y="250" font-size="18" fill="#8F96A4">Бесплатно · Windows 10/11 и macOS · один файл · обновляется сам</text>
     </g>
 
     <path d="M454 285 H1180" stroke="url(#line)" stroke-width="1.5"/>
