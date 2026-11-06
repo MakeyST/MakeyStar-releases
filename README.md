@@ -6,7 +6,7 @@
 
 <a href="https://github.com/MakeyST/MakeyStar-releases/releases/latest"><img src="https://img.shields.io/github/v/release/MakeyST/MakeyStar-releases?style=for-the-badge&color=E8C27A&label=version" alt="Версия"></a>
 <a href="https://github.com/MakeyST/MakeyStar-releases/releases"><img src="https://img.shields.io/github/downloads/MakeyST/MakeyStar-releases/total?style=for-the-badge&color=C9A877&label=downloads" alt="Скачивания"></a>
-<a href="https://www.virustotal.com/gui/file/826ea43e6dd7434b35366ce728ad94b1c272ae779bc0d774d3105e2677fdb8d5?nocache=1"><img src="https://img.shields.io/badge/VirusTotal-checked-5BE39A?style=for-the-badge&logo=virustotal&logoColor=white" alt="VirusTotal"></a>
+<a href="https://www.virustotal.com/gui/file/ce8748a14109fcff2b2c9cfa2f4c0160848b4c990276dc603a95b746b4806ff9?nocache=1"><img src="https://img.shields.io/badge/VirusTotal-checked-5BE39A?style=for-the-badge&logo=virustotal&logoColor=white" alt="VirusTotal"></a>
 <a href="https://t.me/+vHof0DrTv8thYTky"><img src="https://img.shields.io/badge/Telegram-канал-2AABEE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram-канал"></a>
 <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=for-the-badge&logo=windows11&logoColor=white" alt="Windows 10 | 11">
 <img src="https://img.shields.io/badge/macOS-13%2B-A3AAB8?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 13+">
@@ -33,19 +33,17 @@
 > Подробнее — в разделе [«Права автора и защита от копий»](#rights).
 
 <a id="new"></a>
-<img src="assets/h-new.svg" width="100%" alt="Что нового в 4.4">
+<img src="assets/h-new.svg" width="100%" alt="Что нового в 4.5">
 
-<img src="assets/whatsnew.svg" width="100%" alt="Окно «что нового» · честные точки · Telegram через прокси · ответы сервера">
+<img src="assets/whatsnew.svg" width="100%" alt="Скрыть WinDivert от игр · четыре события на главной">
 
-- **Окно «Что нового» починили.** После обновления список изменений открывается в нормальном окне: он прокручивается колесом и полосой, у окна есть крестик и Esc, а само оно помещается на экран. Раньше длинный список растягивал окно на несколько экранов — кнопка «Понятно» уезжала вниз, и закрыть его было нечем.
-- **Точки на главной больше не врут.** Зелёная — только когда ответили **все** адреса сервиса. Если что-то не ответило, точка красная, а в подсказке написано, что именно замолчало. После перезапуска обхода, смены сети или падения движка плитки проверяются заново, а не показывают вчерашний результат.
-- **Telegram больше не краснеет, когда он работает.** Проверяются серверы четырёх дата-центров, а если Telegram идёт через TG WS Proxy — плитка тоже зелёная. У многих провайдеров адреса Telegram закрыты напрямую: раньше это давало красную точку при живом мессенджере.
-- **Понятные ответы сервера.** Вместо «OK 404» — «сервер ответил 404»: это не ошибка, связь и обход работают, просто по этому адресу у сервера нет страницы. Под таблицей проверки — короткое пояснение.
-- **В 4.3.0 было:** поиск `Ctrl+K`, «Врач сайта», «Помог ли обход?», ярлыки и мини-окно, игры (Steam, «Перед игрой», тихие закачки), отчёт в PDF, утечки DNS/IP, сторож и аварийный DNS, сравнение стратегий, портативный режим, экранный диктор.
+- **«Скрыть WinDivert от игр» (Beta).** Некоторые игры и античиты не пускают в игру, потому что находят драйвер обхода. В «Играх → Для опытных» появилась кнопка: MakeyStar ставит рядом с движком такой же драйвер, но под другим именем — служба называется «Monkey», файл — `Monkey64.sys`, — и обход продолжает работать как обычно. Вернуть всё как было — кнопкой «Вернуть WinDivert» там же или через «Настройки → Вернуть всё как было». Помогает, если игра смотрит на имя службы или файла драйвера; если на устройство драйвера — не поможет, об этом честно написано под кнопкой.
+- **«Последние события» короче.** На главной теперь четыре последних события, а весь журнал — по кнопке «Весь журнал».
+- **В 4.4.0 было:** окно «Что нового» с прокруткой и крестиком, честные точки на главной, Telegram через TG WS Proxy, понятные ответы сервера «404».
 - Ваши настройки, профили, стратегии и игры после обновления остаются как были. Полный список — в [описании выпуска](https://github.com/MakeyST/MakeyStar-releases/releases/latest).
 
 > **Про Mac.** Сборка для macOS не менялась: качайте `MakeyStar.dmg` из выпуска 4.1.0 — ссылка в начале страницы
-> и в разделе [MakeyStar для Mac](#mac). Правки 4.4.0 касаются Windows-части.
+> и в разделе [MakeyStar для Mac](#mac). Правки 4.5.0 касаются Windows-части.
 
 <a href="https://t.me/+vHof0DrTv8thYTky"><img src="assets/telegram.svg" width="100%" alt="Наш Telegram-канал: обновления, советы и полезная информация о MakeyStar — подписаться"></a>
 
@@ -304,7 +302,7 @@ MakeyStar бесплатный, потому что стоит на открыт
 
 **VirusTotal**<br>
 Файл проверен десятками антивирусов.<br>
-**[Открыть отчёт VirusTotal](https://www.virustotal.com/gui/file/826ea43e6dd7434b35366ce728ad94b1c272ae779bc0d774d3105e2677fdb8d5?nocache=1)**<br>
+**[Открыть отчёт VirusTotal](https://www.virustotal.com/gui/file/ce8748a14109fcff2b2c9cfa2f4c0160848b4c990276dc603a95b746b4806ff9?nocache=1)**<br>
 <sub>отчёт для версии 2.9.3</sub>
 
 </td>
@@ -482,7 +480,7 @@ MakeyStar предоставляется «как есть», бесплатно
 <summary><b>А на Mac работает?</b></summary>
 <br>
 
-Да. Сборка для Mac лежит в выпуске 4.1.0 (`MakeyStar.dmg`) и с тех пор не менялась — правки 4.4.0 касаются Windows-части. Качайте её по ссылке выше; это та же актуальная mac-версия 1.1.0. Начиная с 4.1.0 в выпуске есть `MakeyStar.dmg` — обход **Discord и YouTube** для macOS 13 и новее.
+Да. Сборка для Mac лежит в выпуске 4.1.0 (`MakeyStar.dmg`) и с тех пор не менялась — правки 4.5.0 касаются Windows-части. Качайте её по ссылке выше; это та же актуальная mac-версия 1.1.0. Начиная с 4.1.0 в выпуске есть `MakeyStar.dmg` — обход **Discord и YouTube** для macOS 13 и новее.
 Установка и важное про первый запуск — в разделе <a href="#mac">MakeyStar для Mac</a>. Игры, рентген сети
 и раздача на приставку есть только в версии для Windows: в macOS нет механизмов, на которых они работают.
 
