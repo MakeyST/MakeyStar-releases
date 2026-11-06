@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Что нового в MakeyStar 4.5">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Быстрые обновления в MakeyStar 4.6">
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090A0D"/><stop offset="1" stop-color="#17191F"/></linearGradient>
 <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1E2229"/><stop offset="1" stop-color="#15181D"/></linearGradient>
@@ -10,9 +10,11 @@
 .tile{animation:up .9s cubic-bezier(.2,.8,.2,1) both}
 .ring{animation:ring 2.8s ease-out infinite;transform-box:fill-box;transform-origin:center}
 .pk{stroke-dasharray:40 400;animation:pk 3.2s cubic-bezier(.5,0,.5,1) infinite}
+.arrow{animation:down 1.8s ease-in-out infinite}
 @keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
 @keyframes ring{0%{opacity:.75;transform:scale(1)}100%{opacity:0;transform:scale(1.25)}}
 @keyframes pk{from{stroke-dashoffset:40}to{stroke-dashoffset:-300}}
+@keyframes down{0%{transform:translateY(-4px);opacity:.55}60%{transform:translateY(3px);opacity:1}100%{transform:translateY(-4px);opacity:.55}}
 </style>
 </defs>
 <g clip-path="url(#c)"><rect width="1280" height="300" fill="url(#bg)"/>
@@ -24,12 +26,13 @@
 <rect class="ring" x="54" y="62" width="72" height="72" rx="20" fill="none" stroke="#F0CF8E" stroke-width="2" style="animation-delay:0.0s"/>
 <rect x="54" y="62" width="72" height="72" rx="20" fill="#1B1F26" stroke="#E8C27A" stroke-opacity=".8" stroke-width="1.5"/>
 <g transform="translate(90 98)">
-<path d="M0 -26 L20 -17 V0 C20 14 10 21 0 24 C-10 21 -20 14 -20 0 V-17 Z" fill="#11141A" stroke="url(#ig0)" stroke-width="2.5" stroke-linejoin="round"/>
-<path d="M0 -9 L2.7 -2.9 L9.2 -2.2 L4.4 2.3 L5.7 8.7 L0 5.4 L-5.7 8.7 L-4.4 2.3 L-9.2 -2.2 L-2.7 -2.9 Z" fill="url(#ig1)"/>
+<path d="M-18 -22 H18" stroke="#A3AAB8" stroke-opacity=".55" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M-22 22 H22" stroke="url(#ig0)" stroke-width="3.5" stroke-linecap="round"/>
+<g class="arrow"><path d="M0 -16 V12" stroke="url(#ig1)" stroke-width="4" stroke-linecap="round"/><path d="M-8 4 L0 14 L8 4" fill="none" stroke="url(#ig1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
 </g>
-<text x="54" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Скрыть WinDivert от игр</text>
-<text x="54" y="210" font-size="16" fill="#A3AAB8">драйвер обхода под именем «Monkey»</text>
-<text x="54" y="232" font-size="16" fill="#A3AAB8">вернуть — той же кнопкой</text>
+<text x="54" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Быстрые обновления</text>
+<text x="54" y="210" font-size="16" fill="#A3AAB8">GitHub медленный — качаем через зеркало</text>
+<text x="54" y="232" font-size="16" fill="#A3AAB8">в 65 раз быстрее: минуты вместо часа</text>
 <path class="pk" d="M54 250 H606" stroke="#F0CF8E" stroke-width="3" stroke-linecap="round" style="animation-delay:0.0s"/>
 </g>
 
@@ -38,15 +41,13 @@
 <circle cx="710" cy="98" r="52" fill="#5BE39A" fill-opacity=".1"/>
 <rect class="ring" x="674" y="62" width="72" height="72" rx="20" fill="none" stroke="#5BE39A" stroke-width="2" style="animation-delay:0.35s"/>
 <rect x="674" y="62" width="72" height="72" rx="20" fill="#1B1F26" stroke="#5BE39A" stroke-opacity=".7" stroke-width="1.5"/>
-<g transform="translate(710 98)" stroke-linecap="round">
-<path d="M-22 -18 H22" stroke="#EDEFF3" stroke-opacity="0.5" stroke-width="3"/><circle cx="-16" cy="-18" r="4.5" fill="url(#ig2)"/>
-<path d="M-22 -6 H22" stroke="#EDEFF3" stroke-opacity="0.5" stroke-width="3"/><circle cx="-16" cy="-6" r="4.5" fill="url(#ig2)"/>
-<path d="M-22 6 H22" stroke="#EDEFF3" stroke-opacity="0.35" stroke-width="3"/><circle cx="-16" cy="6" r="4.5" fill="#A3AAB8" fill-opacity=".45"/>
-<path d="M-22 18 H22" stroke="#EDEFF3" stroke-opacity="0.35" stroke-width="3"/><circle cx="-16" cy="18" r="4.5" fill="#A3AAB8" fill-opacity=".45"/>
+<g transform="translate(710 98)">
+<path d="M0 -26 L20 -17 V0 C20 14 10 21 0 24 C-10 21 -20 14 -20 0 V-17 Z" fill="#11141A" stroke="url(#ig2)" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M-8 -1 L-2 6 L9 -7" fill="none" stroke="url(#ig2)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text x="674" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Последние события</text>
-<text x="674" y="210" font-size="16" fill="#A3AAB8">на главной — четыре последних</text>
-<text x="674" y="232" font-size="16" fill="#A3AAB8">остальное — по кнопке «Весь журнал»</text>
+<text x="674" y="180" font-size="22" font-weight="700" fill="#EDEFF3">Проверки не ослабли</text>
+<text x="674" y="210" font-size="16" fill="#A3AAB8">SHA-256 из релиза и подпись издателя</text>
+<text x="674" y="232" font-size="16" fill="#A3AAB8">подменить файл зеркало не может</text>
 <path class="pk" d="M674 250 H1226" stroke="#5BE39A" stroke-width="3" stroke-linecap="round" style="animation-delay:0.35s"/>
 </g>
 
