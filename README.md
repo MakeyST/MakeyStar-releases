@@ -303,7 +303,7 @@ MakeyStar бесплатный, потому что стоит на открыт
 **VirusTotal**<br>
 Файл проверен десятками антивирусов.<br>
 **[Открыть отчёт VirusTotal](https://www.virustotal.com/gui/file/23b5b775c07cc9e183fe7184df3d821ce9d1ea46c6212f707db2ea999034cff9?nocache=1)**<br>
-<sub>отчёт для версии 2.9.3</sub>
+<sub>отчёт для версии 4.6.0 — загружен 07.11.2026: 67 антивирусов без замечаний, угроз не найдено</sub>
 
 </td>
 <td width="33%" valign="top" align="center">
